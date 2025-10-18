@@ -1,4 +1,4 @@
-# GPT PyTorch Implementation
+# µGPT - PyTorch Implementation
 
 This repository contains a PyTorch implementation of a GPT (Generative Pretrained Transformer) model from scratch. It is designed for educational purposes and experimentation with transformer architectures and language modeling.
 
