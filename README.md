@@ -16,6 +16,23 @@ This repository contains a PyTorch implementation of a GPT (Generative Pretraine
 - **Model size:** Approximately 11.5M parameters.
 - **Context window:** Small, suitable for very short text sequences.
 
+### Tokenizer
+Vocab size: 1000
+Unknown token: < unk >
+
+### Training
+* Block size: 256 (context window)
+* Batch size: 32
+* Epochs: 10
+* Learning rate: 0.0003
+* Weight decay: 0.01
+* Gradient clipping: 1.0
+
+### Model
+* Embedding dimension: 384
+* Number of attention heads: 6
+* Number of transformer layers: 6
+* Dropout: 0.1
 
 ## Install the required dependencies:
 1. pip install torch numpy
