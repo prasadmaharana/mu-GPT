@@ -1,0 +1,33 @@
+{
+  "data": {
+    "raw_dir": "data/raw",
+    "processed_dir": "data/processed",
+    "tokenized_dir": "data/",
+    "vocab_file": "tokenizer/vocab.json",
+    "train_file": "data/train_ids.pt",
+    "val_file": "data/val_ids.pt"
+  },
+  "tokenizer": {
+    "vocab_size": 1000,
+    "unk_token": "<unk>"
+  },
+  "training": {
+    "block_size": 256,
+    "batch_size": 32,
+    "n_epochs": 10,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0
+  },
+  "model": {
+    "embed_dim": 384,
+    "num_heads": 6,
+    "num_layers": 6,
+    "dropout": 0.1
+  },
+  "system": {
+    "seed": 42,
+    "device": "auto",
+    "num_workers": 4
+  }
+}

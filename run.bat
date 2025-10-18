@@ -1,0 +1,1 @@
+python generate.py --prompt "To be" --length 300 --top_k 50 --top_p 0.9
